@@ -1,0 +1,120 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    height: 10.610079575596817vh;
+    text-align: center;
+    line-height: 10.610079575596817vh;
+}
+
+.title {
+    position: absolute;
+    z-index: 9999 !important;
+    left: 50%;
+    margin-top: 22.5%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.5s;
+    text-shadow: 1px 1px 15px black;
+}
+
+.title-about {
+    position: absolute;
+    z-index: 9999 !important;
+    left: 50%;
+    margin-top: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.5s;
+    text-shadow: 1px 1px 15px black;
+}
+
+.title-about:hover {
+    font-size: 4.5em;
+}
+
+.title:hover {
+    font-size: 4.5em;
+}
+
+.a-navbar {
+    font-size: 1.2em;
+    margin: 2.5%;
+    text-decoration: none;
+    padding: 0.5%;
+    color: black;
+    transition: 0.5s;
+    border-bottom: 0.1em solid black;
+}
+
+.a-navbar:hover {
+    color: black;
+    border-bottom: 0.4em solid black;
+}
+
+.landing-img {
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    filter: blur(2px);
+}
+
+.landing-img:hover {
+    filter: blur(0px);
+}
+
+.wrapper-box {
+    position: absolute;
+    margin-top: 28.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999 !important;
+}
+
+.box {
+    background-color: rgb(51, 51, 51);
+    height: 26.52519893899204vh;
+    max-height: 26.52519893899204vh;
+    overflow-y: scroll;
+    width: 26.041666666666668vw;
+    margin-left: 3.333vw;
+    margin-right: 3.333vw;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.box:hover {
+    -webkit-box-shadow: 50px 50px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 50px 50px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 50px 50px 50px 0px rgba(0,0,0,0.75);
+}
+
+.p-me {
+    padding-top: 5%;
+    font-size: 0.9em;
+    text-align: center;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 1.3262599469496021vh;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
